@@ -1,0 +1,258 @@
+body {
+    direction: rtl;
+    background-image: url(../images/board-bright-design-235994.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+#container {
+    width: 2000px;
+    height: 4000px;
+    margin: 0,auto;
+}
+
+#head {
+    font-weight: bold;
+    font: 50px/normal "Segoe UI";
+    width: 820px;
+    height: 50px;
+    color: black;
+    padding-top: 5px;
+    text-decoration: none;
+    margin-right:50px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    padding-right:100px;
+}
+
+nav ul li a {
+        display: block;
+        background-color: #2f2f33;
+        color: white;
+        width: 220px;
+        height: 50px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50px;
+        font-weight: bold;
+        font: 20px/normal "Segoe UI";
+        margin-top: 10px;
+    }
+#hometab {
+    content: url(../images/Home_icon_grey.png);
+    width: 60px;
+    height: 50px;
+}
+nav ul li a:hover {
+    background-color: rgb(95, 158, 160);
+}
+
+nav ul li a:active {
+        background-color: rgb(95, 158, 160);
+    }
+nav ul li .a {
+    background-color: rgb(95, 158, 160);
+    color: white;
+}
+nav ul li .b {
+    background-color: rgb(95, 158, 160);
+    color: white;
+}
+nav ul li .c {
+    background-color: rgb(95, 158, 160);
+    color: white;
+}
+
+
+
+.contact {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 30px/1 "Segoe UI", Helvetica, sans-serif;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 4px 4px 6px black;
+    margin-right: 850px;
+    margin-top: 340px;
+    margin-bottom: -240px;
+}
+
+div#mylinks #f {
+    display: inline-block;
+    width: 50PX;
+    height: 50px;
+    content: url(../images/facebook-icon.png);
+    text-align: center;
+    position: absolute;
+    margin-right: 1020px;
+    margin-top: 180px;
+}
+
+div#mylinks #g {
+    display: inline-block;
+    width: 50PX;
+    height: 50px;
+    content: url(../images/gmail.png);
+    text-align: center;
+    position: absolute;
+    margin-right: 1100px;
+    margin-top: 160px;
+}
+
+#mylinks {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 1200PX;
+    height: 400px;
+    margin-top: -80px;
+}
+
+#hometxt {
+    display: inline-block;
+    width: 800PX;
+    height: 10px;
+    font-weight: bold;
+    font: 20px/normal "Segoe UI";
+    margin-top: 10px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+
+#txt1 h1 {
+    display: inline-block;
+    width: 500PX;
+    height: 10px;
+    font-weight: bold;
+    font: 40px/normal "Segoe UI";
+    margin-top: 100px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+
+#txt1 p {
+    display: inline-block;
+    width: 600PX;
+    height: 50px;
+    font-weight: bold;
+    font: 20px/normal "Segoe UI";
+    margin-top: 10px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+#actil {
+    content: url(../images/ACTIL_WEB_DanielleHarary-01.png);
+    position: absolute;
+    width: 550PX;
+    height: 550px;
+    padding-right: 700px;
+    margin-top: -120px
+}
+
+#actilMain {
+    content: url(../images/ACTIL_WEB_DanielleHarary-01.png);
+    position: absolute;
+    width: 1050PX;
+    height: 1050px;
+    padding-right: 400px;
+}
+
+
+
+#txt2 h1 {
+    display: inline-block;
+    width: 500PX;
+    height: 10px;
+    font-weight: bold;
+    font: 40px/normal "Segoe UI";
+    margin-top: 100px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+
+#txt2 p {
+    display: inline-block;
+    width: 600PX;
+    height: 50px;
+    font-weight: bold;
+    font: 20px/normal "Segoe UI";
+    margin-top: 10px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+
+#newMain {
+    content: url(../images/VisualProject.jpg);
+    position: absolute;
+    width: 750PX;
+    height: 550px;
+    padding-right: 50px;
+    margin-top: 50px
+}
+
+#new {
+    content: url(../images/VisualProject.jpg);
+    position: absolute;
+    width: 1050px;
+    height: 850px;
+    padding-right: 400px;
+}
+
+
+
+#txt3 h1 {
+    display: inline-block;
+    width: 500PX;
+    height: 10px;
+    font-weight: bold;
+    font: 40px/normal "Segoe UI";
+    margin-top: 100px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+
+#txt3 p {
+    display: inline-block;
+    width: 600PX;
+    height: 50px;
+    font-weight: bold;
+    font: 20px/normal "Segoe UI";
+    margin-top: 10px;
+    margin-left: 900px;
+    padding-right: 50px;
+}
+
+.narcos {
+    content: url(../images/NarcosPosterNew_DanielleHarary.jpg);
+    position: absolute;
+    width: 750PX;
+    height: 1050px;
+    margin-top: -50px;
+    margin-right: -750px;
+}
+
+.narcosMain {
+    content: url(../images/NarcosPosterNew_DanielleHarary.jpg);
+    position: absolute;
+    width: 950PX;
+    height: 1250px;
+    padding-right: 200px;
+}
+
+#youtube {
+    padding-right: 850px;
+    margin-top: -150px;
+}
+ 
